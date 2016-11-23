@@ -42,3 +42,7 @@ body {
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
+/*titre de l'index*/
+.index.title {
+  box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
