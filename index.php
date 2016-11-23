@@ -7,10 +7,7 @@ include('include/header.php');
     <article class="container index-title">
       <h1 class="text-center">Bienvenue Dans la page d'acceuil </h1>
     </article>
-
-
   </section>
-
 </section>
 
 
