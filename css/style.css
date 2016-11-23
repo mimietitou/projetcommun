@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(125, 190, 199);
+  background-color: rgb(235, 236, 222);
 }
 /*Formulaire de contact*/
 .modal-content {
@@ -44,9 +44,9 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+/* fin formulaire de contact*/
+
 /*titre de l'index*/
 .index-title {
   box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
-
-/* fin formulaire de contact*/
