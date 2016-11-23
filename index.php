@@ -3,9 +3,19 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
-    <title></title>
+
+    <title>Projet commun</title>
+
   </head>
   <body>
-    <h1> ceci est un titre</h1>
+    <h1>https://github.com/mimietitou/projetcommun/invitations</h1>
+
+
+
+
+
+
+
+
   </body>
 </html>
