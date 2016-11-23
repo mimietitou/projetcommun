@@ -7,6 +7,6 @@
   <body>
 
     <h1>Ceci est notre premier blog en groupe</h1>
-       
+
   </body>
 </html>
