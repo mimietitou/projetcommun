@@ -60,16 +60,19 @@ body {
 }
 .menu-nav {
   padding-left: 0;
+
 }
 .menu-nav > li {
   list-style: none;
   display: inline;
   margin: 2rem;
+
 }
 .site-title {
   border: solid black;
   background-color: rgba(153, 132, 193, 0.4);
-  box-shadow: 3px 3px 0px black;
+  box-shadow: 3px  black;
+
 }
 
 
@@ -97,3 +100,12 @@ body {
  h2{color:#34ca78;}
  .margin10{margin-bottom:10px; margin-right:10px;
  }
+
+/*Carrousel index*/
+.carousel{
+  width:400px;
+}
+.item > img {
+  width: 100%;
+  max-height: 700px;
+}
