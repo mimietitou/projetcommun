@@ -1,6 +1,7 @@
 body {
   background-color: rgb(125, 190, 199);
 }
+/*Formulaire de contact*/
 .modal-content {
   position: relative;
   background-color: #ffffff;
@@ -42,3 +43,4 @@ body {
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
+/* fin formulaire de contact*/
