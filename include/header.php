@@ -11,7 +11,7 @@
   <body>
     <header class="container-fluid">
         <article class="col-md-2">
-          <h1>Le site a Michèle</h1>
+          <h1>Le site à Michèle</h1>
         </article>
         <article class="col-md-10 ">
           <ul class="pull-right">
