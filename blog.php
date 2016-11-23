@@ -5,6 +5,7 @@
     <title>Page de blog</title>
   </head>
   <body>
+
     <h1>Ceci est notre premier blog en groupe</h1>
        
   </body>
