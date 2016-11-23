@@ -1,7 +1,7 @@
 <?php
 
 
-include('header.php');
+include('include/header.php');
 ?>
 // FORMULAIRE de connexion
 ?>
@@ -44,5 +44,5 @@ include('header.php');
     </div>
   </div>
 </div>
-<?php include('footer.php');
+<?php include('include/footer.php');
  ?>
