@@ -13,8 +13,8 @@
         <article class="col-md-2">
           <h1>Le site a Michèle</h1>
         </article>
-        <article class="col-md-10">
-          <ul>
+        <article class="col-md-10 ">
+          <ul class="pull-right">
             <li><a href="index.php"><button type="button" name="button">Index</button></a></li>
             <li><a href="contact.php"><button type="button" name="button">Contact</button></a></li>
             <li><a href="blog.php"><button type="button" name="button">Blog</button></a></li>
