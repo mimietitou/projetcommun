@@ -1,5 +1,4 @@
-<?php echo 'salut';
-include("include/header.php");?>
+<?php include("include/header.php");?>
 
 <!-- FORMULAIRE d'inscription avec vérification des erreurs-->
 <div class="container">
@@ -13,22 +12,23 @@ include("include/header.php");?>
       <form id="inscription" action="inscription_ajax.php" method="post">
         <div class="modal-body">
           <div class="form-group">
-            <label class="form-control" for="pseudo">Pseudo*</label><br><br>
-            <input type="text" name="pseudo" value=""><br>
-            <span class="help-block" id="error_pseudo"></span><br>
+            Votre nom* : <input type="text" name="nom" value=""><br>
+            <span class="help-block" id="error_pseudo"></span>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
               <div class="form-group">
-                <label for="email">Email*</label><br><br>
-                <input type="email" name="email" value=""><br>
-                <span class="help-block" id="error_email"></span><br>
+                Votre Email* : <input type="email" name="email" value=""><br>
+                <span class="help-block" id="error_email"></span>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <textarea type="text" name="message" value=""></textarea><br>
-                <span class="help-block" id="error_password"></span><br>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="message">Votre message : </label><br>
+                  <textarea type="text" name="message" rows="8" cols="50" value=""></textarea><br>
+                  <span class="help-block" id="error_password"></span><br>
+                </div>
               </div>
             </div>
           </div>
