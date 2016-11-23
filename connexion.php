@@ -14,19 +14,16 @@ include('include/header.php');
       </div>
       <form id="connexion" action="connexion_ajax.php" method="post" role="form" style="display: block;" >
         <div class="modal-body">
+          <div class="form-group">
+            <label for="pseudo">Votre Pseudo ou Email : </label><br>
+            <input class="parent" type="text" name="pseudo" value=""><br>
+            <span class="help-block" id="error_pseudo"></span>
+          </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
               <div class="form-group">
-                <label class="form-control" for="pseudo">Pseudo ou Email</label><br><br>
-                <input type="text" name="pseudo" tabindex="1" class="form-control" value=""><br><br><br>
-                <span class="help-block" id="error_pseudo"></span>
-              </div>
-            </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="password">Password*</label><br><br>
-                <input type="text" name="password" value=""><br><br>
+                <label for="password">Votre Password* : </label><br>
+                <input class="enfant" type="text" name="password" value=""><br>
                 <span id="error_password"></span><br>
                 <a href="forget.php">Mot de passe oublié</a><br><br>
               </div>
@@ -36,9 +33,8 @@ include('include/header.php');
         <div class="modal-footer">
           <div class="text-center">
             <input type="hidden" name="isEmpty" value="">
-            <input type="submit" name="submit" tabindex="4" class="form-control btn btn-login" value="Connexion">
+            <button type="submit" name="submit" value="Connexion" class="btn btn-success btn-icon"><i class="fa fa-check"></i> Connexion</button>
           </div>
-        </div>
         </div>
       </form>
     </div>
