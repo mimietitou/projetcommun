@@ -3,12 +3,17 @@
 
 include('include/header.php');
 <<<<<<< HEAD
+<<<<<<< HEAD
 ?>
 // FORMULAIRE de connexion
 =======
 >>>>>>> michele
 ?>
 <!-- // FORMULAIRE de connexion -->
+=======
+?>
+<!-- FORMULAIRE de connexion -->
+>>>>>>> 9b9d3ee4db351df24e164e918ae6d94eadc6d1ed
 
 <div class="container">
   <div class="row">

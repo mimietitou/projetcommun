@@ -9,7 +9,7 @@
 
   </head>
   <body>
-    <header class="container-fluid">
+    <header class="row">
       <section class="nav_bar">
         <article class="text-center site-title col-md-12">
           <h1><a href="index.php">Le site à Michèle</a></h1>
