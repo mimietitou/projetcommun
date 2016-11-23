@@ -12,9 +12,26 @@ body {
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
-  width: 700px;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
+}
+.modal-content-contact{
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  outline: none;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+
 }
 .modal-header {
   border-bottom: 1px solid #48a4ac;
@@ -34,7 +51,7 @@ body {
 }
 .modal-body {
   position: relative;
-  padding-left: 150px;
+  padding-left: 100px;
   padding-top: 15px;
 }
 .modal-footer {
@@ -43,7 +60,12 @@ body {
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
-
+.parent {
+  display: flex;
+}
+.enfant {
+  margin: auto;
+}
 /* fin formulaire de contact*/
 
 /*titre de l'index*/
@@ -53,7 +75,6 @@ body {
   text-shadow: 2px 2px 2px black;
   background-color: rgb(80, 181, 160);
 }
-
 .bouton-nav > li > a > button {
   width: 200px;
 }
@@ -62,6 +83,7 @@ body {
 }
 .menu-nav > li {
   list-style: none;
+  text-decoration: none;
   display: inline;
   margin: 2rem;
 }
