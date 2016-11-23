@@ -10,14 +10,18 @@
   </head>
   <body>
     <header class="container-fluid">
-        <article class="col-md-2">
-          <h1>Le site à Michèle</h1>
+      <section class="nav_bar">
+        <article class="text-center site-title col-md-12">
+          <h1><a href="index.php">Le site à Michèle</a></h1>
         </article>
-        <article class="col-md-10 ">
-          <ul class="pull-right">
-            <li><a href="index.php"><button type="button" name="button">Index</button></a></li>
-            <li><a href="contact.php"><button type="button" name="button">Contact</button></a></li>
-            <li><a href="blog.php"><button type="button" name="button">Blog</button></a></li>
+        <article class="row">
+          <ul class=" text-center menu-nav">
+            <li><a href="index.php">Index</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="inscription.php">Inscription</a></li>
+            <li><a href="connexion.php">Connexion</a></li>
           </ul>
         </article>
+      </section>
     </header>
