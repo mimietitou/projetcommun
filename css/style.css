@@ -1,6 +1,7 @@
 body {
   background-color: rgb(125, 190, 199);
 }
+/*Formulaire de contact*/
 .modal-content {
   position: relative;
   background-color: #ffffff;
@@ -42,7 +43,11 @@ body {
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
+<<<<<<< HEAD
 /*titre de l'index*/
 .index-title {
   box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
+=======
+/* fin formulaire de contact*/
+>>>>>>> 584cc570cb58b9fdda12e1e8de940462951f1a35
