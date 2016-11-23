@@ -1,4 +1,5 @@
-<?php echo 'salut'; ?>
+<?php echo 'salut';
+include("include/header.php");?>
 
 <!-- FORMULAIRE d'inscription avec vérification des erreurs-->
 <div class="container">
@@ -6,7 +7,7 @@
     <div class="modal-content">
       <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></button>
-      <h4 class="modal-title">Creer un nouveau compte</h4>
+      <h4 class="modal-title">Envoyer un message</h4>
     </div>
     <div id="inscriptiondone"></div>
       <form id="inscription" action="inscription_ajax.php" method="post">
