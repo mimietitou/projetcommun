@@ -7,9 +7,7 @@ include('include/header.php');
     <article class="container">
       <h1>Bienvenue Dans la page d'acceuil </h1>
     </article>
-
   </section>
-
 </section>
 
 
