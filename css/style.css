@@ -49,6 +49,26 @@ body {
 /*titre de l'index*/
 .index-title {
   box-shadow: 3px 3px 5px rgb(0, 0, 0);
+  color:#D4AF37;
+  text-shadow: 2px 2px 2px black;
+  background-color: rgb(80, 181, 160);
+}
+
+.bouton-nav > li > a > button {
+  width: 200px;
+}
+.menu-nav {
+  padding-left: 0;
+}
+.menu-nav > li {
+  list-style: none;
+  display: inline;
+  margin: 2rem;
+}
+.site-title {
+  border: solid black;
+  background-color: rgba(153, 132, 193, 0.4);
+  box-shadow: 3px 3px 0px black;
 }
 
 
