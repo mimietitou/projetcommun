@@ -7,8 +7,9 @@ include('include/header.php');
     <article class="container index-title">
       <h1 class="text-center">Bienvenue Dans la page d'acceuil </h1>
     </article>
-    <article class="container">
-      <div id="carousel-example-generic" class="carousel slide pull-center" data-ride="carousel">
+    <article class="container ">
+      <h1 class="text-center">On est pas tous fait pareil</h1>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -19,7 +20,7 @@ include('include/header.php');
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="https://pbs.twimg.com/profile_images/1914245343/HMtwitterprofil.jpg" alt="Vévé">
+            <img src="http://cdn2-europe1.new2.ladmedia.fr/var/europe1/storage/images/le-lab/le-petit-travail-de-pedagogie-dherve-morin-sur-le-projet-de-loi-renseignement-et-ses-arguments-inattendus-24366/510142-1-fre-FR/Le-petit-travail-de-pedagogie-d-Herve-Morin-sur-le-projet-de-loi-renseignement-et-ses-arguments-inattendus.jpg" alt="Vévé">
             <div class="carousel-caption">
               Le futur président du monde
             </div>
