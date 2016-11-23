@@ -5,6 +5,8 @@
     <title>Page de blog</title>
   </head>
   <body>
-    <h1>Ceci est notre premier blog en </h1>    
+    <h1>Ceci est notre premier blog en </h1>
+
+
   </body>
 </html>
