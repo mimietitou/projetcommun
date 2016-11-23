@@ -4,7 +4,7 @@
 include('include/header.php');
 ?>
 <!-- // FORMULAIRE de connexion -->
-?>
+
 <div class="container">
   <div class="row">
     <div class="modal-content">
